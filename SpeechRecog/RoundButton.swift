@@ -1,9 +1,9 @@
 //
 //  RoundButton.swift
-//  Scribe
+//  SpeechRecog
 //
-//  Created by Caleb Stultz on 8/10/16.
-//  Copyright © 2016 Caleb Stultz. All rights reserved.
+//  Created by G on 25/10/2016.
+//  Copyright © 2016 erdgabios. All rights reserved.
 //
 
 import UIKit

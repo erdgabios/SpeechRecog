@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  Scribe
+//  SpeechRecog
 //
-//  Created by Caleb Stultz on 8/10/16.
-//  Copyright © 2016 Caleb Stultz. All rights reserved.
+//  Created by G on 25/10/2016.
+//  Copyright © 2016 erdgabios. All rights reserved.
 //
 
 import UIKit
@@ -38,7 +38,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     func requestSpeechAuth() {
         SFSpeechRecognizer.requestAuthorization { authStatus in
             if authStatus == SFSpeechRecognizerAuthorizationStatus.authorized {
-                if let path = Bundle.main.url(forResource: "test", withExtension: "m4a") {
+                if let path = Bundle.main.url(forResource: "apple_cool", withExtension: "mp3") {
                     do {
                         let sound = try AVAudioPlayer(contentsOf: path)
                         self.audioPlayer = sound
